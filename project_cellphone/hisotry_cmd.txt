@@ -1,0 +1,84 @@
+df_codes = pd.read_excel("country_codes.xls")
+import pandas as pd
+df_codes = pd.read_excel("country_codes.xls")
+df_codes = pd.read_excel("country-codes.xls")
+df_codes
+df_codes['International dialing']
+df_codes[df_codes['International dialing']=!'NaN']
+df_codes[df_codes['International dialing'] =! 'NaN']
+df_codes[('International dialing'] =! 'NaN')]
+df_codes[('International dialing' =! 'NaN')]
+df_codes
+df_codes.Country
+df_codes_csv = pd.read_csv("country-codes.xls")
+df_codes_csv
+df_codes
+df_codes.T
+df_codes.head()
+df_codes.info()
+df_codes = pd.read_excel('country_codes.xls')
+df_codes.info()
+df_codes.InternationalDialing
+df_codes.groupby('InternationalDialing')['NaN']
+df_codes[InternationalDialing=!'NaN']
+df_codes[InternationalDialing=='NaN']
+df_codes[df_codes.InternationalDialing=='NaN']
+df_codes[df_codes.InternationalDialing== NaN]
+df_codes[df_codes.InternationalDialing== ' NaN']
+df_codes[df_codes.InternationalDialing== '  NaN']
+df_codes[df_codes.InternationalDialing== '']
+df_codes.loc[df_codes['InternationalDialing'] == 'NaN']
+df_codes.loc[df_codes['InternationalDialing'] == '']
+df_codes.loc[df_codes['InternationalDialing'] =! 'NaN']
+df_codes.loc[df_codes['InternationalDialing'] != 'NaN']
+df_codes.InternationalDialing.notna()
+df_codes.groupby('InternationalDialing').mean()
+df_codes.groupby('InternationalDialing')
+Int_dials = df_codes.groupby('InternationalDialing')
+int_dials = df_codes.groupby('InternationalDialing')
+int_dials
+int_dials.head()
+int_dials = df_codes.dropna()
+int_dials
+df_codes
+df_codes.dropna()
+df_test = pd.read_excel("country_codes.xls").dropna()
+df_test
+df_test.Country['InternationalDialing' == '+33']
+df_test.Country
+df_test.head()
+df_codes.Country
+df_codes.CountryCode
+df_codes.info()
+df_codes.Country
+df_codes.Country
+df_test = pd.read_excel("country_codes.xls").dropna()
+df_test.Country
+df_test.Country['InternationalDialing' == '+33']
+df_test.str.strip()
+df_test.strip()
+df_test.applymap(lambda x: x.strip() if type(x) is str else x)
+df_test[0]
+df_test['InternationalDialing'] = df_test['InternationalDialing'].str.strip()
+df_test['InternationalDialing']
+df_test.Country['InternationalDialing']
+df_test.Country
+df_test.groupby(['Country','InternationalDialing'])
+df_test.Country
+df_test
+df_test.Country[df_test.InternationalDialing == '+33']
+df_test.Country[df_test.InternationalDialing == '+33'][1]
+type(df_test.Country[df_test.InternationalDialing == '+33'])
+print df_test.Country[df_test.InternationalDialing == '+33']
+r= df_test.Country[df_test.InternationalDialing == '+33']
+r.astype
+r
+r1 = r.tolist()[0]
+r1
+type(r1)
+print 'hello %s' %r1
+france_dialing = raw_input()
+france_dialing = raw_input()
+r= df_test.Country[df_test.InternationalDialing == france_dialing]
+r
+history
