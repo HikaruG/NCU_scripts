@@ -1,0 +1,6 @@
+White   255 255 255
+Gray    128 128 128
+Red     255 0   0
+Blue    0   32  255
+Green   0   192 0
+Orange	255 160 16
